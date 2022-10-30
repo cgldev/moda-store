@@ -1,6 +1,12 @@
 /*Aqui modifico las variables de Bootstrap*/
 
+$sombra: 0 0 0 0.25rem rgba(153, 153, 153, 0.2);
+
 /*Inputs*/
 $input-border-color: #efefef;
-$input-focus-border-color: #000;
-$input-focus-box-shadow: 0 0 0 0.25rem rgba(153, 153, 153, 0.2);
+$input-focus-border-color: black;
+$input-focus-box-shadow: $sombra;
+/*Accordion*/
+$accordion-button-focus-box-shadow: $sombra;
+$accordion-button-active-bg: lightgray;
+$accordion-button-active-color: rgb(92, 92, 92);

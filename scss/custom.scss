@@ -2,7 +2,10 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "animaciones";
 
-.sliderThumb,
-.sliderMianImage {
+body {
+  padding-top: 8em;
+}
+.sliderMiniatura,
+.sliderImagenPrincipal {
   cursor: pointer;
 }
