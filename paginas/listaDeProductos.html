@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="../css/custom.css" />
     <!-- Iconos Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../css/bootstrap-icons.css" />
     <title>Moda Store</title>
   </head>
   <body class="pt-5">
@@ -84,145 +84,184 @@
     </header>
     <div class="container position-relative text-center">
       <div class="position-relative text-center text-white mb-5">
-        <img src="imgs/banner.jpg" class="w-100" alt="Banner" />
+        <img src="../imgs/banner2.jpg" alt="Banner" class="w-100" />
         <div
           class="position-absolute top-50 start-50 translate-middle-x w-100 px-3"
         >
-          <h1 class="display-4">Colección Verano 2023</h1>
-          <a href="#nuevo" class="btn btn-light">Ver Nuevos Ingresos</a>
+          <h1 class="display-4">Nuevos Ingresos</h1>
         </div>
       </div>
-      <h2 class="display-6 py-5">Más Populares</h2>
-      <div
-        class="d-flex justify-content-between align-items-center flex-column flex-lg-row my-5"
-        id="nuevo"
-      >
-        <div class="card m-2" style="width: 15rem">
-          <a href="paginas/producto.html">
-            <img
-              src="imgs/ropa/img1.jpg"
-              alt=""
-              class="card-img-top"
-              height="300"
-              alt="Producto"
-            />
-          </a>
-          <div class="card-body">
-            <p class="card-text fw-bold">Vestido Azul</p>
-            <small class="text-secondary"> ARS $2500 </small>
-          </div>
+      <div class="row">
+        <div class="col col-lg-3 text-start">
+          <h3>Ropa</h3>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="" class="nav-link text-muted">Noche</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-muted">Verano</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-muted">Vestidos</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-muted">Remeras</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-muted">Blusas y Camisas</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-muted">Sweaters</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-muted">Pantalones</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-muted">Camperas</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-muted">Abrigos</a>
+            </li>
+          </ul>
         </div>
-        <div class="card m-2" style="width: 15rem">
-          <a href="paginas/producto.html">
-            <img
-              src="imgs/ropa/img2.jpg"
-              alt=""
-              class="card-img-top"
-              height="300"
-              alt="Producto"
-            />
-          </a>
-          <div class="card-body">
-            <p class="card-text fw-bold">Remera Lisa</p>
-            <small class="text-secondary"> ARS $1000 </small>
+        <div class="col col-9 d-flex flex-wrap justify-content-between">
+          <div class="card m-2" style="width: 15rem">
+            <a href="producto.html">
+              <img
+                src="../imgs/ropa/img1.jpg"
+                class="card-img-top"
+                height="300"
+                alt="Producto"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text fw-bold">Vestido Azul</p>
+              <small class="text-secondary">ARS $2500</small>
+            </div>
           </div>
-        </div>
-        <div class="card m-2" style="width: 15rem">
-          <a href="paginas/producto.html">
-            <img
-              src="imgs/ropa/img3.jpg"
-              alt=""
-              class="card-img-top"
-              height="300"
-              alt="Producto"
-            />
-          </a>
-          <div class="card-body">
-            <p class="card-text fw-bold">Abrigo Celeste</p>
-            <small class="text-secondary"> ARS $3000 </small>
+          <div class="card m-2" style="width: 15rem">
+            <a href="producto.html">
+              <img
+                src="../imgs/ropa/img2.jpg"
+                alt=""
+                class="card-img-top"
+                height="300"
+                alt="Producto"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text fw-bold">Remera Lisa</p>
+              <small class="text-secondary">ARS $1000</small>
+            </div>
           </div>
-        </div>
-        <div class="card m-2" style="width: 15rem">
-          <a href="paginas/producto.html">
-            <img
-              src="imgs/ropa/img4.jpg"
-              alt=""
-              class="card-img-top"
-              height="300"
-              alt="Producto"
-            />
-          </a>
-          <div class="card-body">
-            <p class="card-text fw-bold">Abrigo Elegante</p>
-            <small class="text-secondary"> ARS $3500 </small>
+          <div class="card m-2" style="width: 15rem">
+            <a href="producto.html">
+              <img
+                src="../imgs/ropa/img3.jpg"
+                alt=""
+                class="card-img-top"
+                height="300"
+                alt="Producto"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text fw-bold">Abrigo Celeste</p>
+              <small class="text-secondary">ARS $3000</small>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 15rem">
+            <a href="producto.html">
+              <img
+                src="../imgs/ropa/img4.jpg"
+                alt=""
+                class="card-img-top"
+                height="300"
+                alt="Producto"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text fw-bold">Abrigo Elegante</p>
+              <small class="text-secondary">ARS $3500</small>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 15rem">
+            <a href="producto.html">
+              <img
+                src="../imgs/ropa/img5.jpg"
+                alt=""
+                class="card-img-top"
+                height="300"
+                alt="Producto"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text fw-bold">Sweater Amarillo</p>
+              <small class="text-secondary">ARS $3500</small>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 15rem">
+            <a href="producto.html">
+              <img
+                src="../imgs/ropa/img6.jpg"
+                alt=""
+                class="card-img-top"
+                height="300"
+                alt="Producto"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text fw-bold">Blusa Verde</p>
+              <small class="text-secondary">ARS $1500</small>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 15rem">
+            <a href="producto.html">
+              <img
+                src="../imgs/ropa/img7.jpg"
+                alt=""
+                class="card-img-top"
+                height="300"
+                alt="Producto"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text fw-bold">Jean Gastado</p>
+              <small class="text-secondary">ARS $2300</small>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 15rem">
+            <a href="producto.html">
+              <img
+                src="../imgs/ropa/img8.jpg"
+                alt=""
+                class="card-img-top"
+                height="300"
+                alt="Producto"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text fw-bold">Abrigo Elegante Corto</p>
+              <small class="text-secondary">ARS $3200</small>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 15rem">
+            <a href="producto.html">
+              <img
+                src="../imgs/ropa/img9.jpg"
+                alt=""
+                class="card-img-top"
+                height="300"
+                alt="Producto"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text fw-bold">Blusa Rosa</p>
+              <small class="text-secondary">ARS $1300</small>
+            </div>
           </div>
         </div>
       </div>
-      <a href="paginas/listaDeProductos.html" class="btn btn-outline-dark my-5">
-        Ver Todos los Productos
-      </a>
-      <div
-        class="d-flex justify-content-between align-items-center flex-column flex-lg-row my-5"
-      >
-        <div class="position-relative m-2">
-          <img src="imgs/menu/img1.jpg" height="300" alt="Ropa Informal" />
-          <a
-            href="#"
-            class="btn btn-light position-absolute start-0 bottom-0 ms-2 mb-2 d-block"
-            >Ropa Informal</a
-          >
-        </div>
-        <div class="position-relative m-2">
-          <img src="imgs/menu/img2.jpg" height="300" alt="Ropa Informal" />
-          <a
-            href="#"
-            class="btn btn-light position-absolute start-0 bottom-0 ms-2 mb-2 d-block"
-            >Camisas</a
-          >
-        </div>
-        <div class="position-relative m-2">
-          <img src="imgs/menu/img3.jpg" height="300" alt="Ropa Informal" />
-          <a
-            href="#"
-            class="btn btn-light position-absolute start-0 bottom-0 ms-2 mb-2 d-block"
-            >Carteras</a
-          >
-        </div>
-      </div>
-      <div class="row text-start align-items-center gy-5 my-5">
-        <div class="col-12 col-md-6">
-          <img src="imgs/sobre/img1.jpg" alt="" class="w-100 h-100" />
-        </div>
-        <div class="col-12 col-md-6">
-          <div>
-            <h2 class="display-4">Las Mejores Marcas</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Architecto aspernatur atque exercitationem iusto ad repudiandae
-              iure asperiores dicta. Sunt quo dolorem doloremque, saepe
-              molestiae quasi quos, reiciendis nemo maxime, dolore eos eum
-              assumenda aliquam distinctio natus laudantium magni ex sapiente.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row text-start align-items-center gy-5 my-5">
-        <div class="col-12 col-md-6">
-          <div>
-            <h2 class="display-4">Calidad</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Architecto aspernatur atque exercitationem iusto ad repudiandae
-              iure asperiores dicta. Sunt quo dolorem doloremque, saepe
-              molestiae quasi quos, reiciendis nemo maxime, dolore eos eum
-              assumenda aliquam distinctio natus laudantium magni ex sapiente.
-            </p>
-          </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <img src="imgs/sobre/img2.jpg" alt="" class="w-100 h-100" />
-        </div>
-      </div>
+      <!-- Seccion newsletter -->
       <section class="my-5 mx-auto py-5" style="max-width: 25rem">
         <h2>¡Suscribite a nuestro newsletter!</h2>
         <form action="" class="d-flex my-4">
