@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/custom.css" />
     <!-- Iconos Bootstrap -->
     <link rel="stylesheet" href="../css/bootstrap-icons.css" />
-    <title>Moda Store | Contacto</title>
+    <title>Moda Store | Sobre Nosotros</title>
   </head>
   <body>
     <header>
@@ -70,15 +70,13 @@
                   <a href="#" class="nav-link">Accesorios</a>
                 </li>
                 <li class="nav-item mx-2">
-                  <a href="sobreNosotros.html" class="nav-link"
-                    >Sobre Nosotros</a
-                  >
+                  <a href="#" class="nav-link">Sobre Nosotros</a>
                 </li>
                 <li class="nav-item mx-2">
                   <a href="blog.html" class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item mx-2">
-                  <a href="#" class="nav-link">Contacto</a>
+                  <a href="contacto.html" class="nav-link">Contacto</a>
                 </li>
               </ul>
             </div>
@@ -88,97 +86,164 @@
     </header>
     <div class="container">
       <div class="text-center my-5">
-        <h1>Contacto</h1>
+        <h1>Sobre Nosotros</h1>
         <hr />
+        <p class="lead">Preguntas Frecuentes</p>
       </div>
-      <form action="">
-        <div class="input-group mb-3">
-          <span class="input-group-text"
-            ><i class="bi bi-person-fill"></i
-          ></span>
-          <div class="form-floating">
-            <input
-              type="text"
-              class="form-control"
-              id="nombre"
-              placeholder="Nombre"
-            />
-            <label for="nombre">Nombre</label>
-          </div>
-        </div>
-        <div class="input-group mb-3">
-          <span class="input-group-text"
-            ><i class="bi bi-envelope-fill"></i
-          ></span>
-          <div class="form-floating">
-            <input
-              type="text"
-              class="form-control"
-              id="email"
-              placeholder="Email"
-            />
-            <label for="email">Email</label>
-          </div>
-        </div>
-        <div class="input-group mb-3">
-          <span class="input-group-text"
-            ><i class="bi bi-chat-left-fill"></i
-          ></span>
-          <textarea
-            class="form-control"
-            name="mensaje"
-            id="mensaje"
-            placeholder="Deje su mensaje aqui"
-            style="height: 100px"
-          ></textarea>
-        </div>
-        <button
-          type="button"
-          class="btn btn-outline-dark"
-          data-bs-toggle="modal"
-          data-bs-target="#modal"
-        >
-          Enviar
-        </button>
-
-        <!-- Modal -->
-        <div
-          class="modal fade"
-          id="modal"
-          tabindex="-1"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">
-                  ¡Su mensaje a sido enviado!
-                </h1>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
+      <div class="row">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                ¿Cómo comprar?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatem eaque, nostrum, commodi obcaecati corrupti rem cum
+                repellat ad adipisci dicta non modi perspiciatis. Repudiandae
+                dicta commodi accusantium nesciunt soluta! Soluta?
               </div>
-              <div class="modal-body">
-                Muchas gracias por su mensaje. Nos pondremos en contacto a la
-                brevedad.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                ¿Cómo creo una cuenta?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
+                totam, voluptate, porro mollitia incidunt molestiae, accusantium
+                facilis sapiente vero consectetur assumenda cumque sint! Quidem
+                ut cum ipsum, odio, repudiandae rerum culpa dolore perspiciatis
+                quas veritatis amet excepturi dolorem architecto aliquid earum
+                vitae aut velit, sequi ratione omnis laborum placeat. Dolores.
               </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-bs-dismiss="modal"
-                >
-                  Cerrar
-                </button>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                ¿Que medios de pago tengo disponibles?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                quasi fugiat numquam laborum? Pariatur, possimus? Quod quisquam
+                neque at aliquid, aut rerum, porro voluptate earum molestias ea
+                impedit deserunt dignissimos ex officia quae veniam! Quisquam
+                dolores illo maiores quasi id.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                ¿Es seguro comprar en Moda Store?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
+                minima voluptates exercitationem voluptate, distinctio
+                laboriosam iure ab veniam omnis perspiciatis aut, ea odio velit
+                incidunt qui? Laudantium vel accusamus, fugiat nihil ad ducimus
+                eius minima voluptatum aliquid minus quis quasi. Eos iusto
+                commodi autem at minus molestias ratione, voluptatem animi qui
+                blanditiis nemo earum a. Porro fugiat et ab dicta!
               </div>
             </div>
           </div>
         </div>
-      </form>
+      </div>
+      <div class="text-center my-5">
+        <h2>Tiendas Asociadas</h2>
+        <hr />
+      </div>
+      <div class="row">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Provincia</th>
+              <th scope="col">Localidad</th>
+              <th scope="col">Dirección</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Lorem, ipsum.</td>
+              <td>Lorem, ipsum.</td>
+              <td>Lorem, ipsum.</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Lorem, ipsum.</td>
+              <td>Lorem, ipsum.</td>
+              <td>Lorem, ipsum.</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Lorem, ipsum.</td>
+              <td>Lorem, ipsum.</td>
+              <td>Lorem, ipsum.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <!-- Seccion newsletter -->
       <section class="my-5 mx-auto py-5" style="max-width: 25rem">
         <h2>¡Suscribite a nuestro newsletter!</h2>
